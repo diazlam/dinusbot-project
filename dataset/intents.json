@@ -1,0 +1,458 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan",
+		    "sobat"
+      ],
+      "responses": [
+        "Hai! Dinusbot hadir untukmu di sini. Informasi apa yang ingin kamu tau?",
+        "Halo! Aku Dinusbot yang akan menjawab pertanyaanmu seputar UDINUS, apa yang ingin kamu tanyakan?",
+        "Hei sobat! Ini Dinusbot. Lagi kepo apa nih?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See ya! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati:)"
+      ]
+    },
+    {
+      "tag": "udinus",
+      "patterns": [
+        "Udinus",
+        "UDINUS",
+        "Universitas Dian Nuswantoro",
+        "Dian Nuwantoro University",
+        "Apa itu udinus?"
+      ],
+      "responses": [
+        "Universitas Dian Nuswantoro adalah salah satu perguruan tinggi swasta berakreditasi institusi A yang berada di Semarang, Indonesia. Berdiri pada tahun 1990. Rektor pada tahun 2010 adalah Prof. Dr. Ir. Edi Noersasongko M. Kom."
+      ]
+    },
+    {
+      "tag": "sejarah_udinus",
+      "patterns": [
+        "Sejarah udinus",
+        "Bagaimana sejarah udinus?",
+        "Seperti apa sejarah udinus?"
+      ],
+      "responses": [
+        "Pada tahun 1986, didirikan sebuah lembaga kursus komputer IMKA yang berlokasi di kota Semarang. Karena kegigihannya dalam membuka dan menciptakan peluang pasar serta ketahanannya dalam menghadapi pelbagai rintangan, IMKA berhasil tumbuh dan berkembang serta menyebar ke beberapa kota besar di Pulau Jawa, seperti Semarang, Surakarta, Yogyakarta, Surabaya, Bandung dan Jakarta. Selengkapnya seputar sejarah UDINUS di https://dinus.ac.id/about/52/history-dinus"
+      ]
+    },
+	{
+      "tag": "visi_misi_udinus",
+      "patterns": [
+        "Apa visi misi udinus?",
+        "Visi misi udinus",
+        "Visi dan misi"
+      ],
+      "responses": [
+        "Visi: Universitas prioritas utama untuk dipilih dalam pendidikan dan kewirausahaan. Misi: 1. Menyelenggarakan universitas yang berkualitas 2. Menumbuhkan dan mengembangkan kreativitas dan inovasi sivitas akademika yang memberikan kontribusi baik bagi masyarakat, pemerintah, dan dunia usaha."
+      ]
+    },
+    {
+      "tag": "lokasi_udinus",
+      "patterns": [
+        "Dimana udinus?",
+        "Dimana lokasi udinus?",
+        "Dimana letak udinus?",
+        "Lokasi udinus",
+        "Letak udinus"
+      ],
+      "responses": [
+        "Universitas Dian Nuswantoro (Universitas Dinus) terletak di pusat kota Semarang, Jawa Tengah, Indonesia. Terletak di dekat bundaran Tugu Muda, Jl. Imam Bonjol 207 dan Jl. Nakula I no 5-11 Semarang tepatnya. Dapat diakses dengan mudah baik dengan kendaraan umum maupun kendaraan pribadi. Dibutuhkan sekitar 12 menit dari Bandara Ahmad Yani. Terletak di area seluas 4,5 Ha, kampus ini dikelilingi oleh area perkantoran, pendidikan, gedung komersial dan perumahan."
+      ]
+    },
+    {
+      "tag": "fasilitas_udinus",
+      "patterns": [
+        "Fasilitas udinus",
+        "Apa saja fasilitias di udinus?",
+        "Fasilsitas yang dimiliki udinus",
+        "Apa saja fasilitias yang dimiliki udinus?"
+      ],
+      "responses": [
+        "UDINUS memiliki berbagai fasilitas yang diantaranya seperti lab fotografi, perpustakaan, sistem informasi, ruang rapat H.1, kafetaria, klinik, masjid, pusat kegiatan mahasiswa, Turnitin, ruang kelas nyaman, internet cepat, laboratorium, bus UDINUS, rooftop garden, beasiswa, lapangan basket, kalender akademik dinus, tenda kewirausahaan dinus, unit kegiatan dan organisasi mahasiswa, akses jurnal berlangganan, wall climbing, lab kesehatan, dinus tax center, lembaga bahasa ILCS dan CFLT, peluang studi lanjutan luar negeri, lab industri, ujian online, jadwal online, dan ruang aula. Selengkapnya di https://dinus.ac.id/facility"
+      ]
+    },
+    {
+      "tag": "syarat_buat_ktm",
+      "patterns": [
+        "Syarat-syarat apa saja yang diperlukan untuk membuat Kartu Tanda Mahasiswa (KTM) udinus?",
+        "Syarat-syarat apa saja yang diperlukan untuk membuat KTM udinus?",
+        "Apa saja syarat-syarat yang diperlukan untuk membuat KTM?"
+      ],
+      "responses": [
+        "Melengkapi data di SiAdin Mahasiswa di menu 'e-Ticket KTM/Heregistrasi'. Isi semua kelengkapan data seperti upload file Ijazah, KTP, KK (cek informasi syarat dan ketentuan upload file). Selanjutnya jika sudah berhasil upload semua file silahkan klik 'Download Tiket Pengambilan KTM ke BIAK', cetak dan berikan ke BIAK di Gd. A lt. 1"
+      ]
+    },
+    {
+      "tag": "berobat_layanan_poliklinik",
+      "patterns": [
+        "Jika saya pergi berobat ke poliklinik udinus, perlukah saya membayar untuk pelayanan & obatnya?"
+      ],
+      "responses": [
+        "Tidak, dikarenakan pembayaran poliklinik sudah masuk dalam pembayaran semesteran. "
+      ]
+    },
+    {
+      "tag": "lokasi_parkir",
+      "patterns": [
+        "Dimana parkir mobil dan motor di udinus?"
+      ],
+      "responses": [
+        "Untuk semantara ini, area parkir adalah di - Depan gedung B (untuk kendaraan dosen dan staff) - Depan gedung E (untuk mobil dan karyawan TVku) dan sebagian untuk kendaraan mahasiswa - Sebrang gedung E ( untuk mobil ) - Depan gedung G (untuk mobil) - Belakang gedung G (untuk motor) - Sebelah poliklinik (untuk mobil)."
+      ]
+    },
+    {
+      "tag": "jenis_poli_poliklinik",
+      "patterns": [
+        "Ada berapa jenis poli yang ada di poliklinik udinus?"
+      ],
+      "responses": [
+        "Poli Umum dan Poli Gigi serta Poli Psikologi."
+      ]
+    },
+    {
+      "tag": "syarat_layanan_poliklinik",
+      "patterns": [
+        "Sebagai mahasiswa, syarat apa yang wajib dijadikan standar pelayanan di poliklinik udinus?"
+      ],
+      "responses": [
+        "Harus berstatus Aktif dan membawa KTM pada saat berkunjung ke Poliklinik."
+      ]
+    },
+    {
+      "tag": "macam_kegiatan_penelitian",
+      "patterns": [
+        "Ada berapa macam kegiatan peneliitian/karya ilmiah yang dapat diikut oleh mahasiswa udinus?"
+      ],
+      "responses": [
+        "Ada 3 macam : 1. PKM (Program Kreatifitas Mahasiswa) 2. Program Fasilitasi PemProP Jateng 3. Karya Ilmiah di Gemastik."
+      ]
+    },
+    {
+      "tag": "jenis_beasiswa_udinus",
+      "patterns": [
+        "Apa saja jenis-jenis beasiswa yang dikelola udinus?"
+      ],
+      "responses": [
+        "Beasiswa PPA, Beasiswa AKTIVIS, Beasiswa BBM, Beasiswa Aktivis, Beasiswa BKM, Beasiswa PemproP, Beasiswa Djarum, Beasiswa TPSDP, Beasiswa Supersemar, Beasiswa Dinar, Beasiswa Instusi Per Program Studi, Beasiswa Ungulan, Beasiswa Khusus, Beasiswa Prestasi, Beasiswa BRI."
+      ]
+    },
+    {
+      "tag": "jumlah_ukm_udinus",
+      "patterns": [
+        "Ada berapa unit kegiatan mahasiswa di udinus?"
+      ],
+      "responses": [
+        "Ada 21 UKM, yaitu : ALDAKAWANASETA, Pelayanan Kerasulan Keluarga Mahasiswa Katolik, PERS KAMPUS, PRAMUKA Racana Dian Nuswantoro, BULU TANGKIS, Persekutuan Mahasiswa Kristen, TEATER KAPLINK, MUSIK, Resimen Mahasiswa Batalyon 948 Macan Kumbang, Paduan Suara Mahasiswa Gita Dian Nuswa, Badan Amalan Islam Matholi ul Anwar, SEPAK BOLA, TAE KWON DO, BOLA BASKET, KORPS SUKA RELA PMI, KARATE,Dian Nuswantoro Computer Club,Rumah Sahabat, BOLA VOLLEY, PENALARAN, KOMISI PEMILIHAN UMUM RAYA, dan CATUR UDINUS"
+      ]
+    },
+    {
+      "tag": "jumlah_organisasi_udinus",
+      "patterns": [
+        "Ada berapa organisasi mahasiswa di udinus?"
+      ],
+      "responses": [
+        "Ada 39, yaitu: BEM Keluarga Mahasiswa, BEM Fakultas Kesehatan, BEM Fakultas Ilmu Budaya, BEM Fakultas Ekonomi dan Bisnis, BEM Fakultas Ilmu Komputer, BEM Fakultas Teknik, MPM Keluarga Mahasiswa, DPM Fakultas Kesehatan, DPM Fakultas Ilmu Komputer, DPM Fakultas Ilmu Budaya, DPM Keluarga Mahasiswa, DPM Fakultas Ekonomi dan Bisnis, DPM Fakultas Teknik, HM Teknik Informatika, HM Sistem Informasi, HM Akuntansi, HIKARI, HM Bahasa Inggris, HM Desain Komunikasi Visual, HM Kesehatan Masyarakat, HM Rekam Medik dan Informasi Kesehatan, HM D Teknik Informatika, HM Manajemen, HM Ilmu Komunikasi, HM Teknik Industri, HM Teknik Elektro, HM Pengelolaan Perhotelan, HM Kesehatan Lingkungan, HM Pengelolaan, DOSCOM, Biro Animasi, HM TEKNIK BIOMEDIS, Radio Swara Dian, Biro FTV, BIRO ROBOTIKA, TOBACCO FREE COMMUNITY, TAX CENTER, KELOMPOK STUDI PASAR MODAL, Biro Dinus Innovation Design Community."
+      ]
+    },
+    {
+      "tag": "komunitas_udinus",
+      "patterns": [
+        "Komunitas apa saja yang ada di udinus?"
+      ],
+      "responses": [
+        "Komunitas yang ada di Udinus antara lain : Doscom, Panser Udinus, berbagai UKM serta Himpunan Mahasiswa, dll."
+      ]
+    },
+    {
+      "tag": "informasi_dosen_udinus",
+      "patterns": [
+        "Dimana kita dapat mengakses informasi tentang dosen di udinus?"
+      ],
+      "responses": [
+        "Informasi Dosen dapat diakses melalui website masing – masing fakultas pada menu Staff Dosen atau dengan Search people pada hompage Udinus."
+      ]
+    },
+    {
+      "tag": "career_center_udinus",
+      "patterns": [
+        "Apa sih career center udinus itu?",
+		    "Apa itu career center udinus?"
+      ],
+      "responses": [
+        "Career Center UDINUS merupakan pusat layanan dan karir bagi alumni Universitas Dian Nuswantoro Semarang. Career Center UDINUS menyediakan berbagai informasi karir, pemagangan(internship) dan lowongan kerja diberbagai bidang dan lintas perusahaan industri."
+      ]
+    },
+    {
+      "tag": "member_career_center_udinus",
+      "patterns": [
+        "Apakah bisa menjadi member career center udinus, tetapi bukan alumni udinus?"
+      ],
+      "responses": [
+        "Tentu bisa, apabila ingin menjadi member di udinus career center."
+      ]
+    },
+    {
+      "tag": "daftar_member_career_center_udinus",
+      "patterns": [
+        "Bagaimana menjadi member career center udinus?"
+      ],
+      "responses": [
+        "Untuk menjadi member di Career Center UDINUS sangatlah mudah. Silahkan registrasi melalui website https://cc.dinus.ac.id - pilih menu Jobfair - Registrasi - Pencari Kerja."
+      ]
+    },
+    {
+      "tag": "lokasi_career_center_udinus",
+      "patterns": [
+        "Dimana alamat career center udinus?"
+      ],
+      "responses": [
+        "Jl. Nakula I No. 5-11, Pendrikan Kidul, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50131."
+      ]
+    },
+    {
+      "tag": "lamar_kerja_career_center_udinus",
+      "patterns": [
+        "Bagaiamana cara melamar kerja di website career center udinus?"
+      ],
+      "responses": [
+        "Silakan Anda login menggunakan akun Anda, kemudian klik Lowongan kemudian cari lowongan pekerjaan sesuai minat Anda. kemudian klik lowongan tersebut, dan klik Kirim Lamaran pada tombol pojok kanan bawah. Dan tunggu, maka perusahaan Akan menghubungi Anda."
+      ]
+    },
+    {
+      "tag": "kontak_career_center_udinus",
+      "patterns": [
+        "Adakah kontak person career center udinus?"
+      ],
+      "responses": [
+        "Ada, silakan hubungi kontak person berikut : (024) 352-0165 (024) 356-9684 082244158793 atau bisa melalui email career@cc.dinus.ac.id"
+      ]
+    },
+    {
+      "tag": "jadwal_career_center_udinus",
+      "patterns": [
+        "Kapan saja pelayanan career center udinus tersedia?"
+      ],
+      "responses": [
+        "Pelayanan setiap Senin-Jum'at : 09.00 - 15.00 WIB Sabtu-Minggu : Libur"
+      ]
+    },
+    {
+      "tag": "konseling_alumni_career_center_udinus",
+      "patterns": [
+        "Apakah ada layanan konseling untuk alumni udinus?"
+      ],
+      "responses": [
+        "Iya, ada"
+      ]
+    },
+    {
+      "tag": "parkir_roda_dua_udinus",
+      "patterns": [
+        "Dimana saja parkir kendaraan roda 2 di udinus?"
+      ],
+      "responses": [
+        "Depan Gedung H (untuk motor), Sebelah Kanan Gedung G (untuk motor), Belakang Gedung G (untuk motor), Depan Gedung G (untuk motor), Belakang Gedung I (untuk motor), Sebelah Poliklinik (untuk motor), dan Depan Kedai Fotokopi (untuk motor)"
+      ]
+    },
+    {
+      "tag": "parkir_roda_empat_udinus",
+      "patterns": [
+        "Dimana saja parkir kendaraan roda 4 di udinus?"
+      ],
+      "responses": [
+        "Depan Gedung A (untuk mobil dan motor), Depan Gedung C (untuk motor dan mobil), Depan Jalan Arjuna (untuk mobil), Depan Gedung E (untuk mobil dan motor), Sebrang Gedung E (untuk mobil dan bus), dan Lapangan Basket (untuk mobil)"
+      ]
+    },
+    {
+      "tag": "syarat_parkir_udinus",
+      "patterns": [
+        "Apa saja syarat parkir di udinus?"
+      ],
+      "responses": [
+        "Syaratnya dengan menunjukkan STNK sebagai tanda bukti kepemilikan kendaraan."
+      ]
+    },
+    {
+      "tag": "kehilangan_tempat_parkir",
+      "patterns": [
+        "Bagaimana jika terjadi helm / barang yang hilang saat parkir di udinus?"
+      ],
+      "responses": [
+        "Apabila ada kehilangan helm bukan tanggung jawab tukang parkir , jadi segala helm/barang yang bersifat mahal/penting sebaiknya dibawa oleh mahasiswa saja."
+      ]
+    },
+    {
+      "tag": "usul_judul_buku",
+      "patterns": [
+        "Apakah bisa mengusulkan judul koleksi buku di perpustakaan udinus?"
+      ],
+      "responses": [
+        "Bisa, silakan isi formulir pada link berikut : http://dinuslib.web.id/katalog/index.php?p=usul_buku"
+      ]
+    },
+    {
+      "tag": "informasi_jobfair_udinus",
+      "patterns": [
+        "Dimana bisa mendapatkan informasi jobfair udinus?"
+      ],
+      "responses": [
+        "Silahkan cek di website https://cc.dinus.ac.id"
+      ]
+    },
+    {
+      "tag": "info_statistik_penelitian",
+      "patterns": [
+        "Bagaimana untuk mengetahui info statistik penelitian yang sudah terlaksana oleh udinus?"
+      ],
+      "responses": [
+        "Silakan cek di website http://lppm.dinus.ac.id/index.php menu statistik."
+      ]
+    },
+    {
+      "tag": "jobfair_udinus",
+      "patterns": [
+        "Apakah ada jobfair yang diadakan oleh udinus?"
+      ],
+      "responses": [
+        "Iya, ada."
+      ]
+    },
+    {
+      "tag": "dosen_wali",
+      "patterns": [
+        "Dimana saya bisa melihat nama dosen wali saya?"
+      ],
+      "responses": [
+        "Di siadin mahasiswa"
+      ]
+    },
+    {
+      "tag": "beban_kerja_dosen",
+      "patterns": [
+        "Apa yang dimaksud dengan beban kinerja dosen?",
+		    "Apa yang dimaksud dengan bkd?"
+      ],
+      "responses": [
+        "Beban kinerja dosen adalah beban kerja yang diberikan kepada masing – masing dosen berupa jumlah sks untuk mengajar.."
+      ]
+    },
+    {
+      "tag": "informasi_bkd",
+      "patterns": [
+        "Apa saja yang tertuang di beban kinerja dosen?",
+		    "Apa saja yang tertuang di bkd?"
+      ],
+      "responses": [
+        "Setiap semester BKD diproses, adapun isinya adalah Beban mengajar (SKS masing masing matakuliah, SK mengajar) Jumlah Penelitian Jumlah Pengabdian Kegiatasn Keprofesoran (bagi yang profesor)"
+      ]
+    },
+    {
+      "tag": "pencarian_informasi_dosen_udinus",
+      "patterns": [
+        "Dimana kita dapat mengakses informasi tentang dosen di udinus?"
+      ],
+      "responses": [
+        "Informasi Dosen dapat diakses melalui website masing – masing fakultas pada menu Staff Dosen atau dengan Search people pada hompage Udinus."
+      ]
+    },
+    {
+      "tag": "pengumuman_dosen_kelas",
+      "patterns": [
+        "Bagaimana cara mahasiswa melihat pengumuman dari dosen kelas di siadin?"
+      ],
+      "responses": [
+        "Mahasiswa dapat menuju menu Pengumuman lalu SiAdin akan menampilkan 4 menu pengumuman melingkupi : 1. Pengumuman Kelas dari Dosen 2. Pengumuman Akademik 3. Berita Dikti 4. Berita Kopertis"
+      ]
+    },
+    {
+      "tag": "jadwal_input_krs",
+      "patterns": [
+        "Dimana mahasiswa bisa melihat jadwal input krs?"
+      ],
+      "responses": [
+        "Di website dinus.ac.id atau di dinus.org"
+      ]
+    },
+	{
+      "tag": "jadwal_input_krs",
+      "patterns": [
+        "Bagaimana mekanisme aktivasi siadin dan atau reset password siadin mahasiswa?",
+        "Bagaimana mekanisme aktivasi Siadin dan reset password siadin mahasiswa?",
+        "Bagaimana mekanisme aktivasi siadin atau reset password siadin mahasiswa?",
+        "Bagaimana mekanisme aktivasi siadin mahasiswa?",
+        "Bagaimana mekanisme reset password siadin mahasiswa?"
+      ],
+      "responses": [
+        "Di website dinus.ac.id atau di dinus.orgAktivasi Siadin dan atau Reset Password Siadin Mahasiswa dapat dilakukan secara mandiri oleh mahasiswa dengan mengklik link 'Siadin Activation/Reset Link' di bawah form login Siadin Mahasiswa."
+      ]
+    },
+    {
+      "tag": "masalah_aktivasi_siadin_mahasiswa",
+      "patterns": [
+        "Kemana saya harus mengurus masalah aktivasi siadin mahasiswa, jika seandainya terjadi masalah dengan siadin saya?"
+      ],
+      "responses": [
+        "ke bagian Tata Usaha (TU) Fakultas masing-masing."
+      ]
+    },
+	{
+      "tag": "cara_login_siadin_mahasiswa",
+      "patterns": [
+        "Bagaimana cara mahasiswa login ke siadin?"
+      ],
+      "responses": [
+        "Lakukan aktivasi siadin terlebih dahulu kemudian mahasiswa dapat login SiAdin dengan username NIM dan password yang sudah mahasiswa buat (jika sudah aktivasi siadin)."
+      ]
+    }
+  ]
+}
